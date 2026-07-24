@@ -5,17 +5,29 @@
 </h1>
 
 <p align="center">
-   <a href="#-features">Features</a> • 
-   <a href="#-gallery">Gallery</a> • 
-   <a href="#-installation">Installation</a> • 
-   <a href="#-usage">Usage</a> • 
-   <a href="#-options">Options</a> • 
+   <a href="#-changes-from-upstream">Changes</a> •
+   <a href="#-features">Features</a> •
+   <a href="#-installation">Installation</a> •
+   <a href="#-usage">Usage</a> •
+   <a href="#-options">Options</a> •
    <a href="#-build-from-source">Build</a>
 </p>
 
 A Wayland keystroke visualizer — [DreamMaoMao/wshowkeys](https://github.com/DreamMaoMao/wshowkeys) fork with **rounded corners** and **centered text** support.
 
 Displays key presses on screen for screencasts, presentations, or live coding. Works on any Wayland compositor with `wlr_layer_shell_v1` support (Sway, Hyprland, Niri, KDE, etc.).
+
+## ✨ Changes from Upstream
+
+This fork adds the following to `main.c` against the upstream [DreamMaoMao/wshowkeys](https://github.com/DreamMaoMao/wshowkeys):
+
+| Change | Details |
+| ------ | ------- |
+| **Rounded corners** (`-r`) | `rounded_rect()` helper draws a rounded-rect path using `cairo_arc()`. Applied as a clip region on both mods and keys surfaces before painting. Stores `corner_radius` in state struct. |
+| **Fixed width + centering** (`-w`) | When set, forces keys surface to a fixed pixel width and centers text horizontally instead of left-aligning. |
+| **Length limit** (`-l`) | Drops oldest keys when text exceeds the character limit. |
+
+All additions are behind new flags (`-r`, `-w`) and default to `0` (disabled) — fully backward-compatible.
 
 ## ✨ Features
 
@@ -26,21 +38,6 @@ Displays key presses on screen for screencasts, presentations, or live coding. W
 - Modifier key indicators, mouse button display, scroll wheel display
 - Setuid sandbox — drops root privileges after device setup
 - Auto-colored via Matugen on wallpaper change
-
-## 🖼 Gallery
-
-| Demo |
-| ---- |
-| ![Demo](./assets/demo.png) |
-
-| Terminal Preview |
-| ---------------- |
-| ![Terminal](./assets/terminal-preview.png) |
-
-| Theme Switch |
-| ------------ |
-| ![Theme](./assets/theme-switch.png) |
-
 ## 📦 Installation
 
 ### From AUR (once uploaded)
