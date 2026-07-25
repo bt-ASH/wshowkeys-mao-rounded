@@ -104,4 +104,4 @@ Dependencies: `cairo`, `pango`, `libinput`, `libxkbcommon`, `wayland`, `meson`, 
 
 GPL — same as upstream.
 
-Forked from [DreamMaoMao/wshowkeys](https://github.com/DreamMaoMao/wshowkeys), originally from [ammgws/wshowkeys](https://github.com/ammgws/wshowkeys), originally from [~sircmpwn/wshowkeys](https://git.sr.ht/~sircmpwn/wshowkeys).
+Forked from [DreamMaoMao/wshowkeys](https://github.com/DreamMaoMao/wshowkeys), originally from [ammgws/wshowkeys](https://github.com/ammgws/wshowkeys) & [~sircmpwn/wshowkeys](https://git.sr.ht/~sircmpwn/wshowkeys).
