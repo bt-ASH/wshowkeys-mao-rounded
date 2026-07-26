@@ -41,10 +41,6 @@ All additions are behind new flags (`-r`, `-w`) and default to `0` (disabled) �
 
 ## 📸 Gallery
 
-| Text input                              |
-| --------------------------------------- |
-| ![文本show](./assets/文本show.png)     |
-
 | Modifier keys                           |
 | --------------------------------------- |
 | ![快捷键show](./assets/快捷键show.png) |
@@ -52,6 +48,10 @@ All additions are behind new flags (`-r`, `-w`) and default to `0` (disabled) �
 | Repeated keys                           |
 | --------------------------------------- |
 | ![重复按键show](./assets/重复按键show.png) |
+
+| Text input                              |
+| --------------------------------------- |
+| ![文本show](./assets/文本show.png)     |
 
 ## 📦 Installation
 
