@@ -41,13 +41,13 @@ All additions are behind new flags (`-r`, `-w`) and default to `0` (disabled) �
 
 ## 📸 Gallery
 
-| Modifier keys                           |
-| --------------------------------------- |
-| ![快捷键show](./assets/快捷键show.png) |
-
 | Text input                              |
 | --------------------------------------- |
 | ![文本show](./assets/文本show.png)     |
+
+| Modifier keys                           |
+| --------------------------------------- |
+| ![快捷键show](./assets/快捷键show.png) |
 
 | Repeated keys                           |
 | --------------------------------------- |
