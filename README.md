@@ -38,6 +38,21 @@ All additions are behind new flags (`-r`, `-w`) and default to `0` (disabled) �
 - Modifier key indicators, mouse button display, scroll wheel display
 - Setuid sandbox — drops root privileges after device setup
 - Auto-colored via Matugen on wallpaper change
+
+## 📸 Gallery
+
+Modifier keys
+
+[![快捷键show](/assets/快捷键show.png)](/assets/快捷键show.png)
+
+Text input
+
+[![文本show](/assets/文本show.png)](/assets/文本show.png)
+
+Repeated keys
+
+[![重复按键show](/assets/重复按键show.png)](/assets/重复按键show.png)
+
 ## 📦 Installation
 
 ### From AUR (once uploaded)
